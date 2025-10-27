@@ -1,0 +1,8 @@
+language: java
+
+jdk:
+  - openjdk17
+
+script:
+  - javac HelloWorld.java HelloWorldTest.java
+  - java HelloWorldTest
